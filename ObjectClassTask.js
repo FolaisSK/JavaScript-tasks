@@ -19,6 +19,7 @@ delete person.lastName;
 console.log(person);
 
 console.log(person.firstName)
+console.log(person["firstName"])
 
 
 
