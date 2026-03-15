@@ -1,0 +1,764 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    height: 40px;
+    padding-top: 40px;
+    padding-left: 130px;
+
+}
+
+.dropdown ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    width: 408px;
+    height: 22px;
+    top: 49px;
+    left: 629px;
+}
+
+.loginAndSignUp ul{
+    list-style: none;
+    display: flex;
+    width: 143px;
+    height: 40px;
+    left: 1167px;
+
+}
+
+.loginAndSignUp a{
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    top: 51px;
+    left: 1167px;
+}
+
+.button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    top: 40px;
+    left: 1230px;
+    border-radius: 10px;
+    background-color: #54BD95;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.firstContainer {
+    display: flex;
+    position: absolute;
+    width: 1300.68px;
+    height: 642px;
+    top: 134px;
+    left: 130px;
+}
+
+.dashboardInfo{
+    display: flex;
+    position: absolute;
+    width: 555px;
+    height: 578px;
+    top: 64px;
+}
+
+.dashboardImage{
+    display: flex;
+    position: absolute;
+    width: 701.68px;
+    height: 558.99px;
+    top: 32px;
+    left: 611px;
+}
+
+.productivityTextBox{
+    display: flex;
+    position: absolute;
+    width: 555px;
+    height: 270px;
+    top: 64px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.greenCurve{
+    display: flex;
+    position: absolute;
+    width: 479px;
+    height: 20px;
+    top: 364px;
+    border: 8px;
+    align-content: center;
+}
+
+.greenCurve img{
+    width: 479px;
+    height: 20px;
+    top: 364px;
+    border: rgb(84,189,149,1);
+}
+
+.taskioDescription{
+    display: flex;
+    position: absolute;
+    width: 461px;
+    height: 90px;
+    top: 440px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: normal;
+    color: rgb(0,0,0,1);
+}
+
+.freeTrialButton{
+    display: flex;
+    position: absolute;
+    width: 165px;
+    height: 62px;
+    top: 580px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(84,189,149,1);
+}
+
+.freeTrialText{
+    display: flex;
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    top: 20px;
+    left: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.viewDemo{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 152px;
+    height: 40px;
+    top: 591px;
+    left: 205px;
+    gap: 14px;
+}
+
+.playButton{
+    width: 40px;
+    height: 40px;
+}
+
+.viewDemo a{
+    text-decoration: none;
+    color: black;
+}
+
+.demoText{
+    display: flex;
+    position: absolute;
+    width: 98px;
+    height: 22px;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.secondContainer{
+    display: flex;
+    position: absolute;
+    width: 1076px;
+    height: 146px;
+    top: 918px;
+    left: 130px;
+}
+
+.collabText{
+    display: flex;
+    position: absolute;
+    width: 720px;
+    height: 48px;
+    top: 918px;
+    left: 360px;
+}
+
+.secondContainer p{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    width: 720px;
+    height: 48px;
+    top: 40px;
+    left: 260px;
+}
+
+.sponsors{
+    display: flex;
+    position: absolute;
+    width: 1076px;
+    height: 38px;
+    top: 130px;
+    left: -15px;
+}
+.sponsors img{
+    margin-left: 60px;
+}
+
+.thirdContainer{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 541px;
+    top: 1194px;
+    color: rgba(249, 248, 254, 1);
+}
+
+.partnerSupport{
+    display: flex;
+    position: absolute;
+    width: 644px;
+    height: 421px;
+    top: 60px;
+    left: 130px;
+}
+
+.supportFeatures{
+    display: flex;
+    position: absolute;
+    width: 509px;
+    height: 411px;
+    top: 60px;
+    left: 801px;
+}
+
+.partnerTextBox{
+    display: flex;
+    position: absolute;
+    width: 617px;
+    height: 122px;
+    top: 0px;
+}
+
+.partnerTextBox p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgba(25, 26, 21, 1);
+}
+
+.saasTextBox{
+    display: flex;
+    position: absolute;
+    width: 644px;
+    height: 90px;
+    top: 152px;
+}
+
+.saasTextBox p{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(166, 166, 166, 1);
+}
+
+.databricks{
+    display: flex;
+    position: absolute;
+    width: 142px;
+    height: 106px;
+    top: 325px;
+}
+
+.chainalysis{
+    display: flex;
+    position: absolute;
+    width: 142px;
+    height: 106px;
+    top: 325px;
+    left: 222px;
+}
+
+.dataStars{
+    display: flex;
+    position: absolute;
+    width: 142px;
+    height: 26px;
+}
+
+.dataRating{
+    display: flex;
+    position: absolute;
+    width: 112px;
+    height: 62px;
+    top: 44px;
+}
+
+.dataStars img{
+    margin-left: 1px;
+}
+
+.dataRating h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(25, 26, 21, 1);
+}
+
+.dataRating p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 18px;
+    color: rgba(166, 166, 166, 1);
+}
+
+.publishingBox{
+    display: flex;
+    position: absolute;
+    height: 137px;
+    width: 509px;
+}
+
+.analyticsBox{
+    display: flex;
+    position: absolute;
+    height: 107px;
+    width: 509px;
+    top: 167px
+}
+
+.engagementBox{
+    display: flex;
+    position: absolute;
+    height: 107px;
+    width: 509px;
+    top: 304px
+}
+
+.supportFeatures h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(25, 26, 21, 1);
+    margin-left: 81px;
+}
+
+.supportFeatures p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(166, 166, 166, 1);
+}
+
+.whiteSquare{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.whiteSquareImage{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+}
+
+.fourthContainer{
+    display: flex;
+    position: absolute;
+    width: 1180px;
+    height: 766px;
+    top: 1867px;
+    left: 146px;
+}
+
+.fourthContainer p{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(166, 166, 166, 1);
+}
+
+.featuresBar{
+    display: flex;
+    position: absolute;
+    width: 1180px;
+    height: 122px;
+}
+
+.featuresBarHeader{
+    display: flex;
+    position: absolute;
+    width: 331px;
+    height: 122px;
+}
+
+.featuresBarHeader h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.featuresBarText{
+    display: flex;
+    position: absolute;
+    width: 461px;
+    height: 90px;
+    padding-top: 24px;
+    left: 444px;
+}
+
+.getStartedButton{
+    display: flex;
+    position: absolute;
+    width: 162px;
+    height: 66px;
+    padding-top: 30px;
+    left: 1018px;
+}
+.getStartedButton button{
+    display: flex;
+    width: 162px;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background-color: rgba(84, 189, 149, 1);
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.collabTeams{
+    display: flex;
+    position: absolute;
+    width: 364px;
+    height: 570px;
+    top: 196px;
+}
+
+.fourthContainer img{
+    width: 364px;
+    height: 430px;
+}
+
+.collabTeamBox{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 110px;
+    top: 460px;
+}
+
+.collabTeamBox h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.collabTeamBox p{
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.cloudStorage{
+    display: flex;
+    position: absolute;
+    width: 364px;
+    height: 570px;
+    top: 196px;
+    left: 408px;
+}
+
+.dailyAnalytics{
+    display: flex;
+    position: absolute;
+    width: 364px;
+    height: 570px;
+    top: 196px;
+    left: 816px;
+}
+
+.fifthContainer{
+    display: flex;
+    position: absolute;
+    width: 1249px;
+    height: 543px;
+    top: 2761px;
+    left: 130px;
+}
+
+.laptop{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 529px;
+    left: 730px;
+}
+
+.amandaYoung{
+    display: flex;
+    position: absolute;
+    width: 304px;
+    height: 82px;
+    top: 36px;
+    left: 606px;
+}
+
+.totalIncome{
+    display: flex;
+    position: absolute;
+    width: 138px;
+    height: 70px;
+    top: 121px;
+    left: 1111px;
+    align-items: center;
+}
+
+.successfulTransfer{
+    display: flex;
+    position: absolute;
+    width: 302px;
+    height: 68px;
+    top: 475px;
+    left: 624px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.slantedBox{
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 275px;
+    left: 661px;
+    border-radius: 10px;
+    rotate: -15deg;
+    background-color: rgba(116, 201, 169, 1);
+}
+
+.benefits{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 452px;
+}
+
+.benefits h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.benefitsList{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 280px;
+    top: 172px;
+}
+
+.benefitsList p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 52px;
+    color: rgba(25, 26, 21, 1);
+    padding-top: 5px;
+}
+
+.firstBenefit{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 32px;
+}
+
+.secondBenefit{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 32px;
+    top: 62px;
+}
+
+.thirdBenefit{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 32px;
+    top: 124px;
+}
+
+.fourthBenefit{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 32px;
+    top: 186px;
+}
+
+.fifthBenefit{
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 32px;
+    top: 248px;
+}
+
+.sixthContainer{
+    display: flex;
+    position: absolute;
+    width: 1180px;
+    height: 1069px;
+    top: 3434px;
+    left: 141px;
+}
+
+.choosePlanHeader{
+    display: flex;
+    position: absolute;
+    width: 492px;
+    height: 146px;
+    left: 344px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 73px;
+    text-indent: 90px;
+}
+
+.choosePlanLine{
+    display: flex;
+    position: absolute;
+    width: 519px;
+    height: 22px;
+    top: 186px;
+    left: 331px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(166, 166, 166, 1);
+}
+
+.billMonthlyOrYearly{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 70px;
+    top: 248px;
+    left: 420px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.monthlyBill{
+    display: flex;
+    position: absolute;
+    width: 97px;
+    height: 30px;
+    top: 20px;
+    left: 38px;
+    color: rgba(25, 26, 21, 1);
+    padding-top: 5px;
+}
+
+.yearlyBill{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    top: 7px;
+    left: 213px;
+    border-radius: 10px;
+    background-color: rgba(84, 189, 149, 1);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.billingPlans{
+    display: flex;
+    position: absolute;
+    width: 1180px;
+    height: 684px;
+    top: 385px;
+    left: 141px;
+}
+
+.freePlan{
+    display: flex;
+    position: absolute;
+    width: 374px;
+    height: 644px;
+    top: 22px;
+}
+
+.topLayout img{
+    width: 374px;
+    height: 644px;
+    border-radius: 10px;
+}
+
+.bottomLayout {
+    display: flex;
+    position: absolute;
+    width: 334px;
+    height: 380px;
+    border-radius: 10px;
+    left: 20px;
+    top: 239px;
+}
+
+.freePlanHeader{
+    display: flex;
+    position: absolute;
+    width: 210px;
+    height: 169px;
+    top: 40px;
+    left: 82px;
+}

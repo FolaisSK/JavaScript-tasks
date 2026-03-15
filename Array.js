@@ -25,6 +25,7 @@ const data = [false, 6, "one", 8, null]
 let slice = data.slice(2) // slices with start and stop index
 console.log(slice);
 
-let spliced = data.splice(2) // removes from array
+let spliced = data.splice(2, 0, false,99,"ninety") // removes from array (x) // removes from array with how many to delete (x, y) // removes from array with how many to delete and add element at index (x, y, z)
 console.log(data);
 console.log(spliced);
+
