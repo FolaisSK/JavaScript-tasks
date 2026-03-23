@@ -762,3 +762,147 @@ ul a{
     top: 40px;
     left: 82px;
 }
+
+.freeHeading{
+    display: flex;
+    position: absolute;
+    width: 65px;
+    height: 36px;
+    left: 73px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgba(25, 26, 21, 1);
+}
+
+.freeHeadingInfo{
+    display: flex;
+    position: absolute;
+    width: 210px;
+    height: 54px;
+    top: 46px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(166, 166, 166, 1);
+    /*text-indent: 19px;*/
+}
+
+.zeroDollarsBox{
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    top: 113px;
+    left: 80px;
+}
+
+.dollarSubscript{
+    display: flex;
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(166, 166, 166, 1);
+    align-items: center;
+}
+
+.zero{
+    display: flex;
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 26px;
+    left: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgba(25, 26, 21, 1);
+    align-items: center;
+}
+
+.freePlanInfo{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 329px;
+    top: 265px;
+    left: 57px;
+}
+
+.freePlanAttrributes{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 238px;
+}
+
+.freePlanButton{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 64px;
+    top: 265px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(84, 189, 149, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.freePlanAttrributes img{
+    width: 26px;
+    height: 26px;
+}
+.freePlanAttrributes p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+
+.firstFreeAttribute{
+    display: flex;
+    position: absolute;
+    width: 107px;
+    height: 30px;
+}
+
+.secondFreeAttribute{
+    display: flex;
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    top: 52px;
+}
+
+.thirdFreeAttribute{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    top: 104px;
+}
+
+.fourthFreeAttribute{
+    display: flex;
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    top: 156px;
+}
+
+.fifthFreeAttribute{
+    display: flex;
+    position: absolute;
+    width: 193px;
+    height: 30px;
+    top: 208px;
+}
