@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(to right, #ddc5f1, lightskyblue, #ddc5f1);
+    /*background-color: gainsboro;*/
+}
+
+.productsContainer{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.titlePrice{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.products{
+    /*background-color: darkgrey;*/
+}
+
+.products:hover{
+    background-color: honeydew;
+}
