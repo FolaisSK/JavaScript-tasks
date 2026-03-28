@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">ToDo App</h1>
+
+                <form id="searchTasks">
+                    <input type="text" placeholder="Search Task..." />
+                </form>
+            </div>
+        </header>
+
+        <div id="tasksList">
+            <h2 class="title">Tasks</h2>
+
+            <ul>
+                <li>
+                    <span class="taskTitle">Learn Java ggggggggg</span>
+
+                    <div id="markBox"><label id="checkBox">
+                        <input type="checkbox" id="check" name="markAsCompleted" value="accepted">
+                    </label>
+                    </div>
+
+                    <span class="delete">Delete</span>
+                </li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <form id="addTask">
+            <input type="text" placeholder="Add a task..." />
+            <button>Add</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
